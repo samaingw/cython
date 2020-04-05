@@ -250,6 +250,3 @@ def test_uncopyable_constructor_argument():
         unique_ptr[vector[int]](new vector[int]()))
     del c
 
-_WARNINGS="""
-23:4: Unraisable exception in function 'RegularPolygon.area'.
-"""
